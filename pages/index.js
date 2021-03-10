@@ -1,4 +1,4 @@
-import 'react', { useState } from 'react'
+import react, { useState } from 'react'
 
 import { Page, Text ,Card ,Button,Link } from '@geist-ui/react'
 
