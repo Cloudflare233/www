@@ -1,6 +1,6 @@
 import react, { useState } from 'react'
 
-import { Page, Text ,Card ,Button,Link } from '@geist-ui/react'
+import { Page, Text ,Card ,Button,Link,Avatar } from '@geist-ui/react'
 
 import { CssBaseline, GeistProvider } from '@geist-ui/react'
 
@@ -12,22 +12,21 @@ const Dark = () => {
   return (
     <GeistProvider themeType={themeType}>
       <CssBaseline />
-      <Link onClick={switchThemes}>Dark Mode</Link>
+      <Link href="#" onClick={switchThemes}>Dark Mode</Link>
     </GeistProvider>
   )
 }
 
 export default function Home() {
   return (
- <Page dotBackdrop size="mini">
 <Card shadow>
       <Page.Header>
+
         <Text h2>Andrew</Text>
       </Page.Header>
       <Text>
         Hello, I am using <Text b>Gesit UI</Text>.See the <Dark />!
       </Text>
 </Card>
-    </Page>
   )
 }
