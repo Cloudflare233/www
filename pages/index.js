@@ -7,7 +7,7 @@ import { CssBaseline, GeistProvider } from '@geist-ui/react'
 const Dark = () => {
   const [themeType, setThemeType] = useState('dark')
   return (
-    <GeistProvider>
+    <GeistProvider themeType={themeType}>
       <CssBaseline />
     </GeistProvider>
   )
