@@ -1,6 +1,6 @@
 import react, { useState } from 'react'
 
-import { Page, Text ,Card ,Button,Link,Avatar } from '@geist-ui/react'
+import { Page, Text ,Code ,Button,Link,Avatar } from '@geist-ui/react'
 
 import { CssBaseline, GeistProvider } from '@geist-ui/react'
 
@@ -16,15 +16,15 @@ const Dark = () => {
 export default function Home() {
   return (
 <Page>
-<Card type="dark" shadow>
-      <Page.Header>
-
+ <Page.Header>
         <Text h2>Andrew</Text>
       </Page.Header>
       <Text>
         Hello, I am using <Text b>Gesit UI</Text> <Dark />!
       </Text>
-</Card>
+<Text>
+<Code>print("Hello!")</Code>
+</Text>
 </Page>
   )
 }
