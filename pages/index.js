@@ -1,6 +1,6 @@
 import react, { useState } from 'react'
 
-import NextLink fron 'next/link'
+import NextLink from 'next/link'
 
 import { Page, Text ,Code ,Button,Link,Avatar } from '@geist-ui/react'
 
@@ -19,7 +19,7 @@ export default function Home() {
   return (
 <Page>
  <Page.Header>
-    <Avatar url="https://cdnjsdelivr.net/gh/Cloudflare233/CDN/images/" />
+    <Avatar src="https://cdn.jsdelivr.net/gh/Cloudflare233/CDN/images/79688916.png" />
         <Text h2>Andrew</Text>
       </Page.Header>
       <Text>
