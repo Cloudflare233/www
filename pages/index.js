@@ -28,7 +28,7 @@ export default function Home() {
         Hello, I am using <Text b>Gesit UI</Text> <Dark />! Welcome to my test page. 
       </Text>
 <Text>
-<Snippet text="yarn && yarn dev # start server" width="100%" type="dark" />
+<Snippet text="yarn && yarn dev # start server" width="100%" type="success" />
 </Text>
 </Page>
   )
