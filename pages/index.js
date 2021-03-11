@@ -18,10 +18,12 @@ const Dark = () => {
 export default function Home() {
   return (
 <Page>
+<center>
  <Page.Header>
-    <Avatar src="https://cdn.jsdelivr.net/gh/Cloudflare233/CDN/images/79688916.png" />
+    <Avatar src="https://cdn.jsdelivr.net/gh/Cloudflare233/CDN/images/79688916.png" size="large" />
         <Text h2>Andrew</Text>
       </Page.Header>
+</center>
       <Text>
         Hello, I am using <Text b>Gesit UI</Text> <Dark />!
       </Text>
