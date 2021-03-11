@@ -5,28 +5,26 @@ import { Page, Text ,Card ,Button,Link,Avatar } from '@geist-ui/react'
 import { CssBaseline, GeistProvider } from '@geist-ui/react'
 
 const Dark = () => {
-  const [themeType, setThemeType] = useState('light')
-  const switchThemes = () => {
-    setThemeType(last => (last === 'dark' ? 'light' : 'dark'))
-  }
+  const [themeType, setThemeType] = useState('dark')
   return (
-    <GeistProvider themeType={themeType}>
+    <GeistProvider>
       <CssBaseline />
-      <Link href="#" onClick={switchThemes}>Dark Mode</Link>
     </GeistProvider>
   )
 }
 
 export default function Home() {
   return (
-<Card shadow>
+<Page>
+<Card type="dark" shadow>
       <Page.Header>
 
         <Text h2>Andrew</Text>
       </Page.Header>
       <Text>
-        Hello, I am using <Text b>Gesit UI</Text>.See the <Dark />!
+        Hello, I am using <Text b>Gesit UI</Text> <Dark />!
       </Text>
 </Card>
+</Page>
   )
 }
