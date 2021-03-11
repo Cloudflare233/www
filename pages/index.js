@@ -2,7 +2,7 @@ import react, { useState } from 'react'
 
 import NextLink from 'next/link'
 
-import { Page, Text ,Code ,Button,Link,Avatar } from '@geist-ui/react'
+import { Page, Text ,Snippet ,Button,Link,Avatar } from '@geist-ui/react'
 
 import { CssBaseline, GeistProvider } from '@geist-ui/react'
 
@@ -25,10 +25,10 @@ export default function Home() {
       </Page.Header>
 </center>
       <Text>
-        Hello, I am using <Text b>Gesit UI</Text> <Dark />!
+        Hello, I am using <Text b>Gesit UI</Text> <Dark />! Welcome to my test page. 
       </Text>
 <Text>
-<Code>print("Hello!")</Code>
+<Snippet text="yarn && yarn dev # start server" width="300" />
 </Text>
 </Page>
   )
