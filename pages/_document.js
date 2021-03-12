@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { CssBaseline } from '@geist-ui/react'
+import BLOG from '../blog.config.js'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -19,8 +20,11 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
-        <Head />
+      <Html lang={BLOG.lang}>
+        <Head>
+		<title>{BLOG.title}</title>
+		<meta name="description" content={BLOG.description} />
+		</Head>
         <body>
           <Main />
           <NextScript />

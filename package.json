@@ -9,8 +9,13 @@
   },
   "dependencies": {
     "@geist-ui/react": "latest",
+    "@geist-ui/react-icons": "^1.0.1",
+    "date-fns": "^2.19.0",
+    "gray-matter": "^4.0.2",
     "next": "9.4.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1"
   }
 }
