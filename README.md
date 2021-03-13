@@ -1,22 +1,9 @@
-# Next.js demo for Geist UI React
+# Andrew 's Blog
 
-## Getting Started
+### Introduce
 
-First, run the development server:
+This is the source of my <a href="https://cf233.vercel.app/">personal blog</a>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Next
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I will create a repo , this project now is just planed.

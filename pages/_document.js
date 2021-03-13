@@ -21,10 +21,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang={BLOG.lang}>
-        <Head>
-		<title>{BLOG.title}</title>
-		<meta name="description" content={BLOG.description} />
-		</Head>
+        <Head />
         <body>
           <Main />
           <NextScript />

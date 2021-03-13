@@ -1,5 +1,4 @@
 const BLOG = {
-
 title: "Andrew (@Cloudflare233)",
 user: "Andrew",
 lang: "en",
