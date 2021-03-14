@@ -76,7 +76,7 @@ export default function Dashboard({ allPostsData }) {
 <NextLink href="../"><Link block icon color>← Back to "Home"</Link></NextLink>
 <Spacer y={0.5}/>
 <Page.Header>
-		<User src="https://cdn.jsdelivr.net/gh/Cloudflare233/CDN/images/79688916.png" name="Andrew">
+		<User src="https://cdn.jsdelivr.net/gh/Cloudflare233/www/public/avatar.webp" name="Andrew">
 		A student from china. Interested in computers and airplanes.
 		</User>
 		</Page.Header>
