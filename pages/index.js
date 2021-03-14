@@ -28,7 +28,7 @@ export default function Home() {
 <Page>
 <Head>
 <title>{BLOG.title}</title>
-<meta name="description" connect={BLOG.description} />
+<meta name="description" content={BLOG.description} />
 </Head>
 <Theme />
 <Spacer y={0.5}/>
