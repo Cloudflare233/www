@@ -17,7 +17,7 @@ export default function Posts({ postData }) {
       <article>
         <h2>{postData.title}</h2>
         <div>
-          <Date dateString={postData.date} />
+          <Avatar src="https://cdn.jsdelivr.net/gh/Cloudflare233/www/public/avatar.png" size="small" /> Andrew / <Date dateString={postData.date} />
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
