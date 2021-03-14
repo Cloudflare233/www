@@ -17,10 +17,15 @@ export default function Posts({ postData }) {
       <article>
         <h2>{postData.title}</h2>
         <div>
-          <Avatar src="https://cdn.jsdelivr.net/gh/Cloudflare233/www/public/avatar.png" size="small" /> Andrew / <Date dateString={postData.date} />
+          <Avatar src="https://cdn.jsdelivr.net/gh/Cloudflare233/www/public/avatar.png" size="small" /> {BLOG.user} / <Date dateString={postData.date} />
         </div>
+		<Spacer y={0.3} />
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
+	  <Spacer y={0.3} />
+	  <div>
+	  <Link href="https://www.github.com/Cloudflare233/www/posts/" block icon>Edit on Github</Link>
+	  </div>
 	  </Card>
 	  </Grid.Container>
 </Page>

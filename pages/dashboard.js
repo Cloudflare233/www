@@ -77,7 +77,7 @@ export default function Dashboard({ allPostsData }) {
 <Spacer y={0.5}/>
 <Page.Header>
 		<User src="https://cdn.jsdelivr.net/gh/Cloudflare233/www/public/avatar.png" name="Andrew">
-		A student from china. Interested in computers and airplanes.
+		A student from china.Interested in airplanes.
 		</User>
 		</Page.Header>
 <Spacer y={0.5}/>
@@ -95,7 +95,7 @@ export default function Dashboard({ allPostsData }) {
 			  </NextLink>
              </Row>
 			 <Row><Text small i>
-			 <Date dateString={date} />
+			 {BLOG.user} / <Date dateString={date} />
 			 </Text></Row>
             </div>
           ))}
