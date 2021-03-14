@@ -36,7 +36,7 @@ export default function Home() {
 <Card shadow width="600px">
 <center>
  <Page.Header>
-    <Avatar src="https://cdn.jsdelivr.net/gh/Cloudflare233/www/public/avatar.webp" size="large" alt="avatar" />
+    <Avatar src="https://cdn.jsdelivr.net/gh/Cloudflare233/www/public/avatar.png" size="large" alt="avatar" />
         <Text h2>{BLOG.user}</Text>
       </Page.Header>
 </center>
