@@ -5,22 +5,22 @@ import Date from '../../components/date'
 import { Page, Text ,Snippet ,Button,Link,Avatar,Card ,Spacer,Grid} from '@geist-ui/react'
 import BLOG from '../../blog.config.js'
 
-export default function Post({ postData }) {
+export default function Posts({ postData }) {
   return (
   <Page>
+  <Grid.Container gap={2} justify="center">
       <Head>
 <title>{postData.title} | {BLOG.user} 's Blog</title>
       </Head>
-	  <Grid.Container gap={2} justify="center">
 	  <Card shadow>
+	  <NextLink href="../dashboard"><Link block icon color>← Back to "Dashboard"</Link></NextLink>
       <article>
-        <h1>{postData.title}</h1>
+        <h2>{postData.title}</h2>
         <div>
           <Date dateString={postData.date} />
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
-	  <NextLink href="../blog"><Link block icon color>Back to home ←</Link></NextLink>
 	  </Card>
 	  </Grid.Container>
 </Page>

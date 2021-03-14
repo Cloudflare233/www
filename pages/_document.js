@@ -21,7 +21,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang={BLOG.lang}>
-        <Head />
+        <Head>
+		<link rel="manifest" href="/manifest.json" />
+		</Head>
         <body>
           <Main />
           <NextScript />

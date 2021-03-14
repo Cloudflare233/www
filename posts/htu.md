@@ -1,3 +1,8 @@
+---
+title: "How to create a Nextjs App like my Website."
+date: "2021-03-12"
+---
+
 #### 介绍
 
 嘿，你好。正如您所看见的，这是一个基于Nextjs, Geist-UI的响应式网站启动器，他非常简陋，因为我只花了不到两天去写它，这没有什么可自豪的，因为谁都知道，**慢工出细活**。
@@ -44,7 +49,7 @@ npm install && npm run dev
 
 当一切都就绪的时候，您打开<a href="http://localhost:3000/">http://localhost:3000</a>.将会看到如下画面
 
-<Image src="/done.webp" alt="http://localhost:3000" width="100%" />
+<Image src="https://cdn.jsdelivr.net/gh/Cloudflare233/www/public/done.webp" alt="http://localhost:3000" width="100%" />
 
 #### 配置
 
