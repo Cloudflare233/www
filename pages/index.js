@@ -32,7 +32,7 @@ export default function Home() {
 </Head>
 <Theme />
 <Spacer y={0.5}/>
-<Grid.Container gap={2} justify="center">
+<Grid.Container justify="center">
 <Card shadow width="600px">
 <center>
  <Page.Header>
