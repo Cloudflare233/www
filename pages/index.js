@@ -19,12 +19,12 @@ export default function Index({ posts }) {
       <div >
         {posts.map((post) => (
           <div>
-            <a
+            <Link
               as={`/posts/${post.filePath.replace(/\.mdx?$/, '')}`}
               href={`/posts/[slug]`}
             >
               <h4>{post.data.title}</h4>
-            </a>
+            </Link>
 			<p className="description">{post.data.description}</p>
          </div>
         ))}
