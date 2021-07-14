@@ -5,33 +5,18 @@ import path from 'path'
 import Layout from '../components/Layout'
 import { postFilePaths, POSTS_PATH } from '../utils/mdxUtils'
 import Head from 'next/head'
-import { useState, useEffect } from 'react';
-import { useTheme } from 'next-themes'
+
 
 
 export default function Index({ posts }) {
-  const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
-  useEffect(() => setMounted(true), []);
   return (
     <Layout>
 	<Head>
 	<title>CF233'S BLOG</title>
 	</Head>
 	<p>
-        使用<button className="zi-btn abort auto normal cursor" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} >
-          {mounted && (
-            <div>
-              {theme === 'dark' ? (
-                <div>白天</div>
-              ) : (
-                <div>黑暗</div>
-              )}
-            </div>
-          )}
-		  </button> 模式来阅读下面的文章:
       </p>
-      <div id="posts">
+      <div >
         {posts.map((post) => (
           <div>
             <Link

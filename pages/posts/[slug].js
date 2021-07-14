@@ -30,22 +30,23 @@ export default function PostPage({ source, frontMatter }) {
 	<Head>
 	<title>{frontMatter.title}</title>
 	</Head>
-      <header>
-        <nav>
-          <Link href="/">
-            <a>← BACK TO HOME</a>
-          </Link>
-        </nav>
-      </header>
       <div className="post-header">
         <h1>{frontMatter.title}</h1>
         {frontMatter.description && (
           <p className="description">{frontMatter.description}</p>
         )}
       </div>
-      <main>{content}</main>
-
-      <style jsx>{`
+      <main>{content}
+	  <script src="https://utteranc.es/client.js"
+        repo="Cloudflare233/www"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>  
+	  </main>
+        
+        <style jsx>{`
         .post-header h1 {
           margin-bottom: 0;
         }
