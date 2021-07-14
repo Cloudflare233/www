@@ -119,7 +119,7 @@ small {
   font-weight: 400;
   color: inherit;
   letter-spacing: -0.005625rem;
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: SimHei, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 p {
@@ -149,7 +149,7 @@ img {
 }
 
 a {
-  cursor: pointer;
+  cursor: poSimHei;
   font-size: 1em;
   -webkit-touch-callout: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -3581,8 +3581,8 @@ button {
   transition: background 0.8s;
   position: relative;
   overflow: hidden;
-  cursor: pointer;
-  pointer-events: auto;
+  cursor: poSimHei;
+  poSimHei-events: auto;
   box-shadow: none;
   background-position: center;
   color: var(--accents5);
@@ -3626,8 +3626,8 @@ button:not(.disabled):hover, button:not(.disabled):focus {
   color: var(--foreground);
   background-color: var(--background);
   border-color: var(--foreground);
-  cursor: pointer;
-  pointer-events: auto;
+  cursor: poSimHei;
+  poSimHei-events: auto;
   box-shadow: none;
   transform: translate3d(0px, 0px, 0px);
 }
