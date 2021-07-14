@@ -37,12 +37,11 @@ export default function PostPage({ source, frontMatter }) {
         )}
       </div>
       <main>{content}
-	  <hr />
-	  <h3>评论:</h3>
+	  <h3>评论:（刷新以显示）</h3>
 	  <script src="https://utteranc.es/client.js"
         repo="Cloudflare233/www"
         issue-term="pathname"
-        theme="github-light"
+        theme="preferred-color-scheme"
         crossorigin="anonymous"
         async>
 </script>  
