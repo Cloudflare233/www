@@ -2242,6 +2242,11 @@ inline-style-parser@0.1.1:
   resolved "https://registry.npm.taobao.org/inline-style-parser/download/inline-style-parser-0.1.1.tgz#ec8a3b429274e9c0a1f1c4ffa9453a7fef72cea1"
   integrity sha1-7Io7QpJ06cCh8cT/qUU6f+9yzqE=
 
+inter-ui@^3.19.1:
+  version "3.19.1"
+  resolved "https://registry.nlark.com/inter-ui/download/inter-ui-3.19.1.tgz#68bd9ec24af6808bd90b96951c24ae8e5ae56819"
+  integrity sha1-aL2ewkr2gIvZC5aVHCSujlrlaBk=
+
 ipaddr.js@1.9.1:
   version "1.9.1"
   resolved "https://registry.nlark.com/ipaddr.js/download/ipaddr.js-1.9.1.tgz#bff38543eeb8984825079ff3a2a8e6cbd46781b3"

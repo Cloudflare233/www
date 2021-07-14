@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "gray-matter": "^4.0.2",
+    "inter-ui": "^3.19.1",
     "next": "latest",
     "next-mdx-remote": "^1.0.0",
     "next-remote-watch": "0.2.0",
